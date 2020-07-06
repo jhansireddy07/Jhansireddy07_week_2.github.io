@@ -1,0 +1,95 @@
+/* the styles for the elements */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background-color: yellow;
+}
+
+::-webkit-scrollbar {
+    display: none;    /*Hide scrollbar for Chrome, Safari and Opera */
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    width: 650px;
+    margin: 0 auto;
+    border: 10px double blue;
+    background-color: white;
+}
+
+main {
+    padding: 20px;
+}
+
+hr{
+    display: block;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 7px;
+    color: blue;
+    background-color: blue;
+    height: 1px;
+}
+
+p{
+    padding-bottom: 8px;
+}
+
+cite{
+    color: blue;
+    font-style: normal;
+}
+
+.a {
+    text-align: right;
+}
+
+
+h1 {
+    color: blue;
+    font-size: 150%;
+}
+
+h2 {
+    font-size: 125%;
+    padding-top: 8px;
+    padding-bottom: 5px;
+}
+
+h3 {
+    font-size: 115%;
+    padding-bottom: 8px;
+}
+
+img {
+    float: left;
+    margin: 8px 16px 8px 0px;
+}
+
+blockquote {
+    padding-bottom: 4px;
+}
+
+ul {
+    margin-left: 18px;
+}
+
+li {
+    padding-bottom: .75em;    
+}
+
+
+footer {
+    text-align: center;
+    font-weight: bold;
+}
+
+
+
+
+
